@@ -23,6 +23,15 @@
   @include icons-styling(50px);
 }
 
+.about i:hover {
+  animation: rotate 2s;
+}
+
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 @media screen and(max-width: 600px) {
   .about {
