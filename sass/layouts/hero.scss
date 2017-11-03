@@ -11,10 +11,29 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+}
+
+.hero a {
+  order: 1;
+  color: black;
+}
+
+.hero i {
+  font-size: 50px;
 }
 
 .hero-text {
-display: flex;
-flex-direction: column;
-align-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 30%;
+  transition: background-color 2s;
+}
+
+.hero a:hover + .hero-text {
+  background-color: $content-background-color;
+  border-radius: 30%;
+  padding: 0px 20px;
 }

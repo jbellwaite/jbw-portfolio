@@ -11,12 +11,18 @@
   flex-direction: column;
   background-color: $content-background-color;
   margin: 30px;
+  padding: 30px;
   height: 60%;
 }
 
 .about-box * {
   padding: 20px;
 }
+
+.about i {
+  @include icons-styling(50px);
+}
+
 
 @media screen and(max-width: 600px) {
   .about {

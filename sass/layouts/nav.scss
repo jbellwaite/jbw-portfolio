@@ -1,20 +1,24 @@
 nav {
-  display:flex;
   background: transparent;
   padding: 20px 40px;
+
 }
 
 .nav-box {
-  width: 50%;
-}
-
-.right {
+  width: 10%;
   display: flex;
-  align-items: flex-end;
   flex-direction: column;
+  position: fixed;
 }
 
-.right:hover ul{
+.nav-box i {
+  font-size: 30px;
+  text-decoration: overline;
+  text-decoration-color: $content-background-color;
+}
+
+
+.nav-box:hover ul {
   display: inline;
 }
 
