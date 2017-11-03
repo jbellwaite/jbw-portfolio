@@ -1,0 +1,22 @@
+*, *::after, *::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$content-background-color: rgba(244, 252, 206, 0.7);
+
+@mixin parallax-effect() {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.top-image-container {
+  background-image: url(../img/hero.png);
+}
+
+.about {
+  background-image: url(../img/about.jpeg);
+}
