@@ -1,9 +1,4 @@
-*, *::after, *::before {
-  margin: 0;
-  box-sizing: border-box;
-}
-
-$content-background-color: rgba(244, 252, 206, 0.7);
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Mono');
 
 @mixin parallax-effect() {
   height: 100%;
@@ -13,10 +8,39 @@ $content-background-color: rgba(244, 252, 206, 0.7);
   background-size: cover;
 }
 
-.top-image-container {
-  background-image: url(../img/hero.png);
+@mixin hover {
+  color: RebeccaPurple;
+  text-decoration: line-through;
 }
 
-.about {
-  background-image: url(../img/about.jpeg);
+$content-background-color: rgba(244, 252, 206, 0.7);
+$lato: 'Lato', sans-serif;
+$roboto: 'Roboto Mono', monospace;
+
+
+*, *::after, *::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $lato;
+}
+
+h1, h2 {
+  font-family: $roboto;
+}
+
+
+
+.top-image-container {
+  background-image: url(../img/hero.jpg);
+}
+
+.about, .contact {
+  background-image: url(../img/about.jpg);
+}
+
+.work {
+  background-image: url(../img/hero.jpg);
 }

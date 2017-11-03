@@ -1,6 +1,7 @@
 nav {
   display:flex;
   background: transparent;
+  padding: 20px 40px;
 }
 
 .nav-box {
@@ -21,6 +22,17 @@ ul {
   display: none;
   list-style: none;
 }
+
+li {
+  background-color: $content-background-color;
+  padding: 10px;
+}
+
+li:hover {
+  @include hover;
+}
+
+
 
 @media screen and (max-width: 600px) {
   .left {

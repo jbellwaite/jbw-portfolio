@@ -1,0 +1,17 @@
+.contact {
+  @include parallax-effect;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 40%;
+  width: 40%;
+  background-color: $content-background-color;
+}
