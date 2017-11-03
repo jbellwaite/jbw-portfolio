@@ -1,0 +1,43 @@
+.work {
+  @include parallax-effect;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work h2 {
+  width: 100%;
+  text-align: center;
+}
+
+.work-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.work-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid blue;
+  width: 100%;
+}
+
+.work-box img {
+  width: 90%;
+}
+
+@media screen and (max-width: 600px) {
+
+  .work-container {
+    display: block;
+    overflow: auto;
+  }
+
+  .work {
+    overflow: auto;
+  }
+}
