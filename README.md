@@ -19,7 +19,7 @@ A personal portfolio project for week 4 of Epicodus CSS track.The website was ma
 
 ## Setup/Installation Requirements
 
-* _Clone the "google" repository to your desktop from GitHub here: https://github.com/jbellwaite/portfolio.git_
+* _Clone the "google" repository to your desktop from GitHub here: https://github.com/jbellwaite/jbw-portfolio.git_
 * _Open the "google" folder_
 * _Open a web-browser, preferably Chrome._
 * _Drag "index.html" into an open tab in your web browser to open the application._
@@ -27,7 +27,7 @@ A personal portfolio project for week 4 of Epicodus CSS track.The website was ma
 _Use a text editor like Atom to edit code._
 
 ## GitHub GH-Pages link
-_https://jbellwaite.github.io/portfolio/_
+_https://jbellwaite.github.io/jbw-portfolio/_
 
 ## Known Bugs
 
